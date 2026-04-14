@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register | Midnight Shelf</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/29/29302.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="simple-auth">
+    <p class="brand">Midnight Shelf</p>
+    <h1>Register</h1>
+    <p class="page-copy">Create an account first, then sign in and browse the books.</p>
+
+    <form id="register-form" class="auth-form" novalidate>
+      <label class="field-label" for="regUser">Username</label>
+      <input id="regUser" name="username" autocomplete="username" placeholder="Choose a username" required>
+
+      <label class="field-label" for="regPass">Password</label>
+      <input id="regPass" name="password" type="password" autocomplete="new-password" placeholder="Create a password" required>
+
+      <button type="submit" class="primary-button">Register</button>
+    </form>
+
+    <p id="register-message" class="form-message" aria-live="polite"></p>
+    <p class="switch">Already have an account? <a href="login.html">Go to login</a></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

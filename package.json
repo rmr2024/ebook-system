@@ -1,0 +1,8 @@
+{
+  "name": "ebook-system",
+  "version": "1.0.0",
+  "description": "Simple e-book store frontend",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
